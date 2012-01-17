@@ -10,3 +10,15 @@ def index(request):
         'latest_blog_list': latest_blog_list
     })
     return HttpResponse(t.render(c))
+
+def contact(request):
+    t = loader.get_template('contact.html')
+    return HttpResponse(t.render(Context()))
+
+def about(request):
+    t = loader.get_template('about.html')
+    return HttpResponse(t.render(Context()))
+
+def members(request):
+    t = loader.get_template('members.html')
+    return HttpResponse(t.render(Context()))
