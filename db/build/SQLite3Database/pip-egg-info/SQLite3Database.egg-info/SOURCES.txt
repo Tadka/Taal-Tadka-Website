@@ -1,0 +1,11 @@
+README.txt
+setup.cfg
+pip-egg-info/SQLite3Database.egg-info/PKG-INFO
+pip-egg-info/SQLite3Database.egg-info/SOURCES.txt
+pip-egg-info/SQLite3Database.egg-info/dependency_links.txt
+pip-egg-info/SQLite3Database.egg-info/entry_points.txt
+pip-egg-info/SQLite3Database.egg-info/not-zip-safe
+pip-egg-info/SQLite3Database.egg-info/requires.txt
+pip-egg-info/SQLite3Database.egg-info/top_level.txt
+sqlite3database/__init__.py
+sqlite3database/helper/__init__.py

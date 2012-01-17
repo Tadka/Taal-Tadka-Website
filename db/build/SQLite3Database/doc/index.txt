@@ -1,0 +1,14 @@
+Summary
+=======
+
+``sqlite3`` driver for the DatabasePipe package
+
+Get Started
+===========
+
+* Download and install from source
+
+Author
+======
+
+`James Gardner <http://jimmyg.org/>`_

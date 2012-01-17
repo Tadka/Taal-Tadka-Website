@@ -1,0 +1,530 @@
+Downloading/unpacking sqlite3
+  Getting page http://pypi.python.org/simple/sqlite3
+  Could not fetch URL http://pypi.python.org/simple/sqlite3: HTTP Error 404: Not Found (sqlite3 does not have any releases)
+  Will skip URL http://pypi.python.org/simple/sqlite3 when looking for download links for sqlite3
+  Getting page http://pypi.python.org/simple/
+  URLs to search for versions for sqlite3:
+  Could not find any downloads that satisfy the requirement sqlite3
+No distributions at all found for sqlite3
+Exception information:
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 252, in main
+    self.run(options, args)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 408, in run
+    requirement_set.install_files(finder, force_root_egg_info=self.bundle)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 1750, in install_files
+    url = finder.find_requirement(req_to_install, upgrade=self.upgrade)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 1029, in find_requirement
+    raise DistributionNotFound('No distributions at all found for %s' % req)
+DistributionNotFound: No distributions at all found for sqlite3
+------------------------------------------------------------
+/usr/bin/pip run on Tue May 24 18:00:33 2011
+Downloading/unpacking sqlite3-devel
+  Getting page http://pypi.python.org/simple/sqlite3-devel
+  Could not fetch URL http://pypi.python.org/simple/sqlite3-devel: HTTP Error 404: Not Found (sqlite3-devel does not have any releases)
+  Will skip URL http://pypi.python.org/simple/sqlite3-devel when looking for download links for sqlite3-devel
+  Getting page http://pypi.python.org/simple/
+  URLs to search for versions for sqlite3-devel:
+  Could not find any downloads that satisfy the requirement sqlite3-devel
+No distributions at all found for sqlite3-devel
+Exception information:
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 252, in main
+    self.run(options, args)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 408, in run
+    requirement_set.install_files(finder, force_root_egg_info=self.bundle)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 1750, in install_files
+    url = finder.find_requirement(req_to_install, upgrade=self.upgrade)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 1029, in find_requirement
+    raise DistributionNotFound('No distributions at all found for %s' % req)
+DistributionNotFound: No distributions at all found for sqlite3-devel
+------------------------------------------------------------
+/usr/bin/pip run on Tue May 24 18:02:20 2011
+Downloading/unpacking SQLite3Database
+  Getting page http://pypi.python.org/simple/SQLite3Database
+  URLs to search for versions for SQLite3Database:
+  * http://pypi.python.org/simple/SQLite3Database
+  Getting page http://jimmyg.org/work/code/sqlite3database/index.html
+  Analyzing links from page http://pypi.python.org/simple/SQLite3Database/
+    Found link http://pypi.python.org/packages/source/S/SQLite3Database/SQLite3Database-0.2.0.tar.gz#md5=19dc703a97c1eb0a2413f272b98b5322 (from http://pypi.python.org/simple/SQLite3Database/), version: 0.2.0
+    Skipping link http://jimmyg.org/work/code/sqlite3database/index.html (from http://pypi.python.org/simple/SQLite3Database/); unknown archive format: .html
+    Skipping link http://jimmyg.org/ (from http://pypi.python.org/simple/SQLite3Database/); not a file
+    Skipping link http://www.gnu.org/licenses/ (from http://pypi.python.org/simple/SQLite3Database/); not a file
+  Analyzing links from page http://jimmyg.org/work/code/sqlite3database/index.html
+    Skipping link http://jimmyg.org/index.html (from http://jimmyg.org/work/code/sqlite3database/index.html); unknown archive format: .html
+    Skipping link http://jimmyg.org/work/index.html (from http://jimmyg.org/work/code/sqlite3database/index.html); unknown archive format: .html
+    Skipping link http://jimmyg.org/work/code/index.html (from http://jimmyg.org/work/code/sqlite3database/index.html); unknown archive format: .html
+    Skipping link http://jimmyg.org/work/code/sqlite3database/0.1.0/index.html (from http://jimmyg.org/work/code/sqlite3database/index.html); unknown archive format: .html
+    Skipping link http://jimmyg.org/work/code/sqlite3database/index.html (from http://jimmyg.org/work/code/sqlite3database/index.html); unknown archive format: .html
+    Found link http://jimmyg.org/work/code/eggs/SQLite3Database-0.1.0.tar.gz (from http://jimmyg.org/work/code/sqlite3database/index.html), version: 0.1.0
+    Skipping link http://jimmyg.org/contact/ (from http://jimmyg.org/work/code/sqlite3database/index.html); not a file
+    Skipping link http://jimmyg.org (from http://jimmyg.org/work/code/sqlite3database/index.html); not a file
+  Using version 0.2.0 (newest of versions: 0.2.0, 0.1.0)
+  Downloading SQLite3Database-0.2.0.tar.gz
+  Downloading from URL http://pypi.python.org/packages/source/S/SQLite3Database/SQLite3Database-0.2.0.tar.gz#md5=19dc703a97c1eb0a2413f272b98b5322 (from http://pypi.python.org/simple/SQLite3Database/)
+  Running setup.py egg_info for package SQLite3Database
+    running egg_info
+    creating pip-egg-info/SQLite3Database.egg-info
+    writing requirements to pip-egg-info/SQLite3Database.egg-info/requires.txt
+    writing pip-egg-info/SQLite3Database.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/SQLite3Database.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/SQLite3Database.egg-info/dependency_links.txt
+    writing entry points to pip-egg-info/SQLite3Database.egg-info/entry_points.txt
+    writing manifest file 'pip-egg-info/SQLite3Database.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    reading manifest file 'pip-egg-info/SQLite3Database.egg-info/SOURCES.txt'
+    writing manifest file 'pip-egg-info/SQLite3Database.egg-info/SOURCES.txt'
+  Source in ./build/SQLite3Database has version 0.2.0, which satisfies requirement SQLite3Database
+Installing collected packages: SQLite3Database
+  Running setup.py install for SQLite3Database
+    Running command /usr/bin/python -c "import setuptools; __file__='/home/bhups/Documents/Django/tadka/db/build/SQLite3Database/setup.py'; execfile('/home/bhups/Documents/Django/tadka/db/build/SQLite3Database/setup.py')" install --single-version-externally-managed --record /tmp/pip-nIeh9A-record/install-record.txt --install-headers /home/bhups/Documents/Django/tadka/db/lib/include
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib.linux-i686-2.6
+    creating build/lib.linux-i686-2.6/sqlite3database
+    copying sqlite3database/__init__.py -> build/lib.linux-i686-2.6/sqlite3database
+    creating build/lib.linux-i686-2.6/sqlite3database/helper
+    copying sqlite3database/helper/__init__.py -> build/lib.linux-i686-2.6/sqlite3database/helper
+    running egg_info
+    creating SQLite3Database.egg-info
+    writing requirements to SQLite3Database.egg-info/requires.txt
+    writing SQLite3Database.egg-info/PKG-INFO
+    writing top-level names to SQLite3Database.egg-info/top_level.txt
+    writing dependency_links to SQLite3Database.egg-info/dependency_links.txt
+    writing entry points to SQLite3Database.egg-info/entry_points.txt
+    writing manifest file 'SQLite3Database.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    reading manifest file 'SQLite3Database.egg-info/SOURCES.txt'
+    writing manifest file 'SQLite3Database.egg-info/SOURCES.txt'
+    running install_lib
+    creating /usr/local/lib/python2.6/dist-packages/sqlite3database
+    error: could not create '/usr/local/lib/python2.6/dist-packages/sqlite3database': Permission denied
+    Complete output from command /usr/bin/python -c "import setuptools; __file__='/home/bhups/Documents/Django/tadka/db/build/SQLite3Database/setup.py'; execfile('/home/bhups/Documents/Django/tadka/db/build/SQLite3Database/setup.py')" install --single-version-externally-managed --record /tmp/pip-nIeh9A-record/install-record.txt --install-headers /home/bhups/Documents/Django/tadka/db/lib/include:
+    running install
+
+running build
+
+running build_py
+
+creating build
+
+creating build/lib.linux-i686-2.6
+
+creating build/lib.linux-i686-2.6/sqlite3database
+
+copying sqlite3database/__init__.py -> build/lib.linux-i686-2.6/sqlite3database
+
+creating build/lib.linux-i686-2.6/sqlite3database/helper
+
+copying sqlite3database/helper/__init__.py -> build/lib.linux-i686-2.6/sqlite3database/helper
+
+running egg_info
+
+creating SQLite3Database.egg-info
+
+writing requirements to SQLite3Database.egg-info/requires.txt
+
+writing SQLite3Database.egg-info/PKG-INFO
+
+writing top-level names to SQLite3Database.egg-info/top_level.txt
+
+writing dependency_links to SQLite3Database.egg-info/dependency_links.txt
+
+writing entry points to SQLite3Database.egg-info/entry_points.txt
+
+writing manifest file 'SQLite3Database.egg-info/SOURCES.txt'
+
+warning: manifest_maker: standard file '-c' not found
+
+reading manifest file 'SQLite3Database.egg-info/SOURCES.txt'
+
+writing manifest file 'SQLite3Database.egg-info/SOURCES.txt'
+
+running install_lib
+
+creating /usr/local/lib/python2.6/dist-packages/sqlite3database
+
+error: could not create '/usr/local/lib/python2.6/dist-packages/sqlite3database': Permission denied
+
+----------------------------------------
+Command /usr/bin/python -c "import setuptools; __file__='/home/bhups/Documents/Django/tadka/db/build/SQLite3Database/setup.py'; execfile('/home/bhups/Documents/Django/tadka/db/build/SQLite3Database/setup.py')" install --single-version-externally-managed --record /tmp/pip-nIeh9A-record/install-record.txt --install-headers /home/bhups/Documents/Django/tadka/db/lib/include failed with error code 1
+Exception information:
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 252, in main
+    self.run(options, args)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 410, in run
+    requirement_set.install(install_options)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 2017, in install
+    requirement.install(install_options)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 1515, in install
+    cwd=self.source_dir, filter_stdout=self._filter_install, show_stdout=False)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 3543, in call_subprocess
+    % (command_desc, proc.returncode))
+InstallationError: Command /usr/bin/python -c "import setuptools; __file__='/home/bhups/Documents/Django/tadka/db/build/SQLite3Database/setup.py'; execfile('/home/bhups/Documents/Django/tadka/db/build/SQLite3Database/setup.py')" install --single-version-externally-managed --record /tmp/pip-nIeh9A-record/install-record.txt --install-headers /home/bhups/Documents/Django/tadka/db/lib/include failed with error code 1
+------------------------------------------------------------
+/usr/bin/pip run on Tue May 24 18:02:38 2011
+Downloading/unpacking SQLite3dbm
+  Getting page http://pypi.python.org/simple/SQLite3dbm
+  URLs to search for versions for SQLite3dbm:
+  * http://pypi.python.org/simple/SQLite3dbm
+  Getting page http://github.com/Yelp/sqlite3dbm/
+  Analyzing links from page http://pypi.python.org/simple/sqlite3dbm/
+    Found link http://pypi.python.org/packages/source/s/sqlite3dbm/sqlite3dbm-0.1.0.tar.gz#md5=592c0195fb0249dca5f1953dde96e72f (from http://pypi.python.org/simple/sqlite3dbm/), version: 0.1.0
+    Found link http://pypi.python.org/packages/source/s/sqlite3dbm/sqlite3dbm-0.1.1a.tar.gz#md5=17651db66da16345e1962a346dc9bbc9 (from http://pypi.python.org/simple/sqlite3dbm/), version: 0.1.1a
+    Found link http://pypi.python.org/packages/source/s/sqlite3dbm/sqlite3dbm-0.1.3.tar.gz#md5=296e52046b0bee3308957dcb1e4f4ee1 (from http://pypi.python.org/simple/sqlite3dbm/), version: 0.1.3
+    Found link http://pypi.python.org/packages/source/s/sqlite3dbm/sqlite3dbm-0.1.2.tar.gz#md5=8b0f00d1d74f0d557ed97c58cee1e9ec (from http://pypi.python.org/simple/sqlite3dbm/), version: 0.1.2
+    Skipping link http://github.com/Yelp/sqlite3dbm/ (from http://pypi.python.org/simple/sqlite3dbm/); not a file
+    Skipping link http://packages.python.org/sqlite3dbm/ (from http://pypi.python.org/simple/sqlite3dbm/); not a file
+  Analyzing links from page https://github.com/Yelp/sqlite3dbm/
+    Skipping link https://github.com/opensearch.xml (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .xml
+    Skipping link https://github.com/fluidicon.png (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .png
+    Skipping link https://d3nwyuy0nl342s.cloudfront.net/76e26dbff3e0e5c7a427f3272ff52d68ac609993/stylesheets/bundle_github.css (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .css
+    Skipping link https://github.com/Yelp/sqlite3dbm/tree/4649c3f4dd57b84311579da86b1274cc5b05e014 (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/commits/master.atom (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .atom
+    Skipping link https://github.com (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/plans (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/explore (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/features (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/blog (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/login?return_to=%2FYelp%2Fsqlite3dbm%2F (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/admin (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/toggle_watch (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/fork (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/ (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/watchers (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/network (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/commits/master (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/pulls (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/issues (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/graphs (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/branches (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/tree/development (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/tree/v0.1.3 (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .3
+    Skipping link https://github.com/Yelp/sqlite3dbm/tree/v0.1.2 (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .2
+    Skipping link https://github.com/Yelp/sqlite3dbm/tree/v0.1.1a (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .1a
+    Skipping link https://github.com/Yelp/sqlite3dbm/tree/v0.1.1 (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .1
+    Skipping link https://github.com/Yelp/sqlite3dbm/tree/v0.1.0 (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .0
+    Skipping link https://github.com/Yelp/sqlite3dbm/downloads (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/#readme (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link http:// (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm.git (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .git
+    Skipping link git://github.com/Yelp/sqlite3dbm.git (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .git
+    Skipping link https://github.com/Yelp/sqlite3dbm/dismiss-tree-finder-help (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/commit/4649c3f4dd57b84311579da86b1274cc5b05e014 (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/tree/8e92f6a3754757b9c05f4c5ee649b0d4287f8456 (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/commits/master/ (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/tree/4649c3f4dd57b84311579da86b1274cc5b05e014/docs (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/commit/27deb1b0e4dbe03ae1de342be5b0968f7cf36b1f (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/tree/4649c3f4dd57b84311579da86b1274cc5b05e014/sqlite3dbm (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/tree/4649c3f4dd57b84311579da86b1274cc5b05e014/tests (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/blob/4649c3f4dd57b84311579da86b1274cc5b05e014/.gitignore (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/commit/eedd53bb3fd195c474aff3b53766dbf4b8182624 (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/blob/4649c3f4dd57b84311579da86b1274cc5b05e014/AUTHORS.txt (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .txt
+    Skipping link https://github.com/Yelp/sqlite3dbm/commit/1633e66f639c549cfcd1de2cfa967fe5de18bee8 (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/blob/4649c3f4dd57b84311579da86b1274cc5b05e014/CHANGES.txt (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .txt
+    Skipping link https://github.com/Yelp/sqlite3dbm/blob/4649c3f4dd57b84311579da86b1274cc5b05e014/LICENSE.txt (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .txt
+    Skipping link https://github.com/Yelp/sqlite3dbm/blob/4649c3f4dd57b84311579da86b1274cc5b05e014/MANIFEST.in (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .in
+    Skipping link https://github.com/Yelp/sqlite3dbm/commit/76158df1a30da20d6f75c47859cf36d60acf29fd (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/blob/4649c3f4dd57b84311579da86b1274cc5b05e014/README.md (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .md
+    Skipping link https://github.com/Yelp/sqlite3dbm/blob/4649c3f4dd57b84311579da86b1274cc5b05e014/setup.cfg (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .cfg
+    Skipping link https://github.com/Yelp/sqlite3dbm/blob/4649c3f4dd57b84311579da86b1274cc5b05e014/setup.py (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .py
+    Skipping link http://github.com/Yelp/sqlite3dbm/ (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link http://packages.python.org/sqlite3dbm/ (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link http://www.rackspace.com (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link http://www.rackspace.com%20 (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link http://www.rackspacecloud.com (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/contact (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/training (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link http://jobs.github.com (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link http://shop.github.com (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link http://developer.github.com (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link http://status.github.com (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/site/terms (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/site/privacy (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/security (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link http://github.github.com/github-flavored-markdown/ (from https://github.com/Yelp/sqlite3dbm/); not a file
+  Analyzing links from page https://github.com/Yelp/sqlite3dbm/
+    Skipping link https://github.com/opensearch.xml (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .xml
+    Skipping link https://github.com/fluidicon.png (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .png
+    Skipping link https://d3nwyuy0nl342s.cloudfront.net/76e26dbff3e0e5c7a427f3272ff52d68ac609993/stylesheets/bundle_github.css (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .css
+    Skipping link https://github.com/Yelp/sqlite3dbm/tree/4649c3f4dd57b84311579da86b1274cc5b05e014 (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/commits/master.atom (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .atom
+    Skipping link https://github.com (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/plans (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/explore (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/features (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/blog (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/login?return_to=%2FYelp%2Fsqlite3dbm%2F (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/admin (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/toggle_watch (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/fork (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/ (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/watchers (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/network (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/commits/master (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/pulls (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/issues (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/graphs (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/branches (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/tree/development (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/tree/v0.1.3 (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .3
+    Skipping link https://github.com/Yelp/sqlite3dbm/tree/v0.1.2 (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .2
+    Skipping link https://github.com/Yelp/sqlite3dbm/tree/v0.1.1a (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .1a
+    Skipping link https://github.com/Yelp/sqlite3dbm/tree/v0.1.1 (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .1
+    Skipping link https://github.com/Yelp/sqlite3dbm/tree/v0.1.0 (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .0
+    Skipping link https://github.com/Yelp/sqlite3dbm/downloads (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/#readme (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link http:// (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm.git (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .git
+    Skipping link git://github.com/Yelp/sqlite3dbm.git (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .git
+    Skipping link https://github.com/Yelp/sqlite3dbm/dismiss-tree-finder-help (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/commit/4649c3f4dd57b84311579da86b1274cc5b05e014 (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/tree/8e92f6a3754757b9c05f4c5ee649b0d4287f8456 (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/commits/master/ (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/tree/4649c3f4dd57b84311579da86b1274cc5b05e014/docs (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/commit/27deb1b0e4dbe03ae1de342be5b0968f7cf36b1f (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/tree/4649c3f4dd57b84311579da86b1274cc5b05e014/sqlite3dbm (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/tree/4649c3f4dd57b84311579da86b1274cc5b05e014/tests (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/blob/4649c3f4dd57b84311579da86b1274cc5b05e014/.gitignore (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/commit/eedd53bb3fd195c474aff3b53766dbf4b8182624 (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/blob/4649c3f4dd57b84311579da86b1274cc5b05e014/AUTHORS.txt (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .txt
+    Skipping link https://github.com/Yelp/sqlite3dbm/commit/1633e66f639c549cfcd1de2cfa967fe5de18bee8 (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/blob/4649c3f4dd57b84311579da86b1274cc5b05e014/CHANGES.txt (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .txt
+    Skipping link https://github.com/Yelp/sqlite3dbm/blob/4649c3f4dd57b84311579da86b1274cc5b05e014/LICENSE.txt (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .txt
+    Skipping link https://github.com/Yelp/sqlite3dbm/blob/4649c3f4dd57b84311579da86b1274cc5b05e014/MANIFEST.in (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .in
+    Skipping link https://github.com/Yelp/sqlite3dbm/commit/76158df1a30da20d6f75c47859cf36d60acf29fd (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/blob/4649c3f4dd57b84311579da86b1274cc5b05e014/README.md (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .md
+    Skipping link https://github.com/Yelp/sqlite3dbm/blob/4649c3f4dd57b84311579da86b1274cc5b05e014/setup.cfg (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .cfg
+    Skipping link https://github.com/Yelp/sqlite3dbm/blob/4649c3f4dd57b84311579da86b1274cc5b05e014/setup.py (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .py
+    Skipping link http://github.com/Yelp/sqlite3dbm/ (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link http://packages.python.org/sqlite3dbm/ (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link http://www.rackspace.com (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link http://www.rackspace.com%20 (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link http://www.rackspacecloud.com (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/contact (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/training (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link http://jobs.github.com (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link http://shop.github.com (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link http://developer.github.com (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link http://status.github.com (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/site/terms (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/site/privacy (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/security (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link http://github.github.com/github-flavored-markdown/ (from https://github.com/Yelp/sqlite3dbm/); not a file
+  Analyzing links from page https://github.com/Yelp/sqlite3dbm/
+    Skipping link https://github.com/opensearch.xml (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .xml
+    Skipping link https://github.com/fluidicon.png (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .png
+    Skipping link https://d3nwyuy0nl342s.cloudfront.net/76e26dbff3e0e5c7a427f3272ff52d68ac609993/stylesheets/bundle_github.css (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .css
+    Skipping link https://github.com/Yelp/sqlite3dbm/tree/4649c3f4dd57b84311579da86b1274cc5b05e014 (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/commits/master.atom (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .atom
+    Skipping link https://github.com (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/plans (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/explore (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/features (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/blog (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/login?return_to=%2FYelp%2Fsqlite3dbm%2F (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/admin (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/toggle_watch (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/fork (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/ (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/watchers (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/network (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/commits/master (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/pulls (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/issues (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/graphs (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/branches (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/tree/development (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/tree/v0.1.3 (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .3
+    Skipping link https://github.com/Yelp/sqlite3dbm/tree/v0.1.2 (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .2
+    Skipping link https://github.com/Yelp/sqlite3dbm/tree/v0.1.1a (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .1a
+    Skipping link https://github.com/Yelp/sqlite3dbm/tree/v0.1.1 (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .1
+    Skipping link https://github.com/Yelp/sqlite3dbm/tree/v0.1.0 (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .0
+    Skipping link https://github.com/Yelp/sqlite3dbm/downloads (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/#readme (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link http:// (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm.git (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .git
+    Skipping link git://github.com/Yelp/sqlite3dbm.git (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .git
+    Skipping link https://github.com/Yelp/sqlite3dbm/dismiss-tree-finder-help (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/commit/4649c3f4dd57b84311579da86b1274cc5b05e014 (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/tree/8e92f6a3754757b9c05f4c5ee649b0d4287f8456 (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/commits/master/ (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/tree/4649c3f4dd57b84311579da86b1274cc5b05e014/docs (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/commit/27deb1b0e4dbe03ae1de342be5b0968f7cf36b1f (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/tree/4649c3f4dd57b84311579da86b1274cc5b05e014/sqlite3dbm (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/tree/4649c3f4dd57b84311579da86b1274cc5b05e014/tests (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/blob/4649c3f4dd57b84311579da86b1274cc5b05e014/.gitignore (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/commit/eedd53bb3fd195c474aff3b53766dbf4b8182624 (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/blob/4649c3f4dd57b84311579da86b1274cc5b05e014/AUTHORS.txt (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .txt
+    Skipping link https://github.com/Yelp/sqlite3dbm/commit/1633e66f639c549cfcd1de2cfa967fe5de18bee8 (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/blob/4649c3f4dd57b84311579da86b1274cc5b05e014/CHANGES.txt (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .txt
+    Skipping link https://github.com/Yelp/sqlite3dbm/blob/4649c3f4dd57b84311579da86b1274cc5b05e014/LICENSE.txt (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .txt
+    Skipping link https://github.com/Yelp/sqlite3dbm/blob/4649c3f4dd57b84311579da86b1274cc5b05e014/MANIFEST.in (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .in
+    Skipping link https://github.com/Yelp/sqlite3dbm/commit/76158df1a30da20d6f75c47859cf36d60acf29fd (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/blob/4649c3f4dd57b84311579da86b1274cc5b05e014/README.md (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .md
+    Skipping link https://github.com/Yelp/sqlite3dbm/blob/4649c3f4dd57b84311579da86b1274cc5b05e014/setup.cfg (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .cfg
+    Skipping link https://github.com/Yelp/sqlite3dbm/blob/4649c3f4dd57b84311579da86b1274cc5b05e014/setup.py (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .py
+    Skipping link http://github.com/Yelp/sqlite3dbm/ (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link http://packages.python.org/sqlite3dbm/ (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link http://www.rackspace.com (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link http://www.rackspace.com%20 (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link http://www.rackspacecloud.com (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/contact (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/training (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link http://jobs.github.com (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link http://shop.github.com (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link http://developer.github.com (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link http://status.github.com (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/site/terms (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/site/privacy (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/security (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link http://github.github.com/github-flavored-markdown/ (from https://github.com/Yelp/sqlite3dbm/); not a file
+  Analyzing links from page https://github.com/Yelp/sqlite3dbm/
+    Skipping link https://github.com/opensearch.xml (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .xml
+    Skipping link https://github.com/fluidicon.png (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .png
+    Skipping link https://d3nwyuy0nl342s.cloudfront.net/76e26dbff3e0e5c7a427f3272ff52d68ac609993/stylesheets/bundle_github.css (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .css
+    Skipping link https://github.com/Yelp/sqlite3dbm/tree/4649c3f4dd57b84311579da86b1274cc5b05e014 (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/commits/master.atom (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .atom
+    Skipping link https://github.com (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/plans (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/explore (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/features (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/blog (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/login?return_to=%2FYelp%2Fsqlite3dbm%2F (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/admin (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/toggle_watch (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/fork (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/ (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/watchers (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/network (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/commits/master (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/pulls (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/issues (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/graphs (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/branches (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/tree/development (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/tree/v0.1.3 (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .3
+    Skipping link https://github.com/Yelp/sqlite3dbm/tree/v0.1.2 (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .2
+    Skipping link https://github.com/Yelp/sqlite3dbm/tree/v0.1.1a (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .1a
+    Skipping link https://github.com/Yelp/sqlite3dbm/tree/v0.1.1 (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .1
+    Skipping link https://github.com/Yelp/sqlite3dbm/tree/v0.1.0 (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .0
+    Skipping link https://github.com/Yelp/sqlite3dbm/downloads (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/#readme (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link http:// (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm.git (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .git
+    Skipping link git://github.com/Yelp/sqlite3dbm.git (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .git
+    Skipping link https://github.com/Yelp/sqlite3dbm/dismiss-tree-finder-help (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/commit/4649c3f4dd57b84311579da86b1274cc5b05e014 (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/tree/8e92f6a3754757b9c05f4c5ee649b0d4287f8456 (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/commits/master/ (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/tree/4649c3f4dd57b84311579da86b1274cc5b05e014/docs (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/commit/27deb1b0e4dbe03ae1de342be5b0968f7cf36b1f (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/tree/4649c3f4dd57b84311579da86b1274cc5b05e014/sqlite3dbm (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/tree/4649c3f4dd57b84311579da86b1274cc5b05e014/tests (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/blob/4649c3f4dd57b84311579da86b1274cc5b05e014/.gitignore (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/commit/eedd53bb3fd195c474aff3b53766dbf4b8182624 (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/blob/4649c3f4dd57b84311579da86b1274cc5b05e014/AUTHORS.txt (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .txt
+    Skipping link https://github.com/Yelp/sqlite3dbm/commit/1633e66f639c549cfcd1de2cfa967fe5de18bee8 (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/blob/4649c3f4dd57b84311579da86b1274cc5b05e014/CHANGES.txt (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .txt
+    Skipping link https://github.com/Yelp/sqlite3dbm/blob/4649c3f4dd57b84311579da86b1274cc5b05e014/LICENSE.txt (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .txt
+    Skipping link https://github.com/Yelp/sqlite3dbm/blob/4649c3f4dd57b84311579da86b1274cc5b05e014/MANIFEST.in (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .in
+    Skipping link https://github.com/Yelp/sqlite3dbm/commit/76158df1a30da20d6f75c47859cf36d60acf29fd (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/Yelp/sqlite3dbm/blob/4649c3f4dd57b84311579da86b1274cc5b05e014/README.md (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .md
+    Skipping link https://github.com/Yelp/sqlite3dbm/blob/4649c3f4dd57b84311579da86b1274cc5b05e014/setup.cfg (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .cfg
+    Skipping link https://github.com/Yelp/sqlite3dbm/blob/4649c3f4dd57b84311579da86b1274cc5b05e014/setup.py (from https://github.com/Yelp/sqlite3dbm/); unknown archive format: .py
+    Skipping link http://github.com/Yelp/sqlite3dbm/ (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link http://packages.python.org/sqlite3dbm/ (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link http://www.rackspace.com (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link http://www.rackspace.com%20 (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link http://www.rackspacecloud.com (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/contact (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/training (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link http://jobs.github.com (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link http://shop.github.com (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link http://developer.github.com (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link http://status.github.com (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/site/terms (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/site/privacy (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link https://github.com/security (from https://github.com/Yelp/sqlite3dbm/); not a file
+    Skipping link http://github.github.com/github-flavored-markdown/ (from https://github.com/Yelp/sqlite3dbm/); not a file
+  Using version 0.1.3 (newest of versions: 0.1.3, 0.1.2, 0.1.1a, 0.1.0)
+  Downloading sqlite3dbm-0.1.3.tar.gz
+  Downloading from URL http://pypi.python.org/packages/source/s/sqlite3dbm/sqlite3dbm-0.1.3.tar.gz#md5=296e52046b0bee3308957dcb1e4f4ee1 (from http://pypi.python.org/simple/sqlite3dbm/)
+  Running setup.py egg_info for package SQLite3dbm
+    running egg_info
+    creating pip-egg-info/sqlite3dbm.egg-info
+    writing pip-egg-info/sqlite3dbm.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/sqlite3dbm.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/sqlite3dbm.egg-info/dependency_links.txt
+    writing manifest file 'pip-egg-info/sqlite3dbm.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    reading manifest file 'pip-egg-info/sqlite3dbm.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    no previously-included directories found matching 'docs/_build'
+    writing manifest file 'pip-egg-info/sqlite3dbm.egg-info/SOURCES.txt'
+  Source in ./build/SQLite3dbm has version 0.1.3, which satisfies requirement SQLite3dbm
+Installing collected packages: SQLite3dbm
+  Running setup.py install for SQLite3dbm
+    Running command /usr/bin/python -c "import setuptools; __file__='/home/bhups/Documents/Django/tadka/db/build/SQLite3dbm/setup.py'; execfile('/home/bhups/Documents/Django/tadka/db/build/SQLite3dbm/setup.py')" install --single-version-externally-managed --record /tmp/pip-l2GCdU-record/install-record.txt --install-headers /home/bhups/Documents/Django/tadka/db/lib/include
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib.linux-i686-2.6
+    creating build/lib.linux-i686-2.6/sqlite3dbm
+    copying sqlite3dbm/sshelve.py -> build/lib.linux-i686-2.6/sqlite3dbm
+    copying sqlite3dbm/dbm.py -> build/lib.linux-i686-2.6/sqlite3dbm
+    copying sqlite3dbm/__init__.py -> build/lib.linux-i686-2.6/sqlite3dbm
+    running install_lib
+    creating /usr/local/lib/python2.6/dist-packages/sqlite3dbm
+    error: could not create '/usr/local/lib/python2.6/dist-packages/sqlite3dbm': Permission denied
+    Complete output from command /usr/bin/python -c "import setuptools; __file__='/home/bhups/Documents/Django/tadka/db/build/SQLite3dbm/setup.py'; execfile('/home/bhups/Documents/Django/tadka/db/build/SQLite3dbm/setup.py')" install --single-version-externally-managed --record /tmp/pip-l2GCdU-record/install-record.txt --install-headers /home/bhups/Documents/Django/tadka/db/lib/include:
+    running install
+
+running build
+
+running build_py
+
+creating build
+
+creating build/lib.linux-i686-2.6
+
+creating build/lib.linux-i686-2.6/sqlite3dbm
+
+copying sqlite3dbm/sshelve.py -> build/lib.linux-i686-2.6/sqlite3dbm
+
+copying sqlite3dbm/dbm.py -> build/lib.linux-i686-2.6/sqlite3dbm
+
+copying sqlite3dbm/__init__.py -> build/lib.linux-i686-2.6/sqlite3dbm
+
+running install_lib
+
+creating /usr/local/lib/python2.6/dist-packages/sqlite3dbm
+
+error: could not create '/usr/local/lib/python2.6/dist-packages/sqlite3dbm': Permission denied
+
+----------------------------------------
+Command /usr/bin/python -c "import setuptools; __file__='/home/bhups/Documents/Django/tadka/db/build/SQLite3dbm/setup.py'; execfile('/home/bhups/Documents/Django/tadka/db/build/SQLite3dbm/setup.py')" install --single-version-externally-managed --record /tmp/pip-l2GCdU-record/install-record.txt --install-headers /home/bhups/Documents/Django/tadka/db/lib/include failed with error code 1
+Exception information:
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 252, in main
+    self.run(options, args)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 410, in run
+    requirement_set.install(install_options)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 2017, in install
+    requirement.install(install_options)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 1515, in install
+    cwd=self.source_dir, filter_stdout=self._filter_install, show_stdout=False)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 3543, in call_subprocess
+    % (command_desc, proc.returncode))
+InstallationError: Command /usr/bin/python -c "import setuptools; __file__='/home/bhups/Documents/Django/tadka/db/build/SQLite3dbm/setup.py'; execfile('/home/bhups/Documents/Django/tadka/db/build/SQLite3dbm/setup.py')" install --single-version-externally-managed --record /tmp/pip-l2GCdU-record/install-record.txt --install-headers /home/bhups/Documents/Django/tadka/db/lib/include failed with error code 1

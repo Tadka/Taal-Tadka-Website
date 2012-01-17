@@ -1,0 +1,17 @@
+AUTHORS.txt
+CHANGES.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+docs/Makefile
+docs/dbm.rst
+docs/index.rst
+docs/sshelve.rst
+pip-egg-info/sqlite3dbm.egg-info/PKG-INFO
+pip-egg-info/sqlite3dbm.egg-info/SOURCES.txt
+pip-egg-info/sqlite3dbm.egg-info/dependency_links.txt
+pip-egg-info/sqlite3dbm.egg-info/top_level.txt
+sqlite3dbm/__init__.py
+sqlite3dbm/dbm.py
+sqlite3dbm/sshelve.py

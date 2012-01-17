@@ -1,0 +1,18 @@
+Changes
+=======
+
+0.2.0
+-----
+
+2010-09-01
+~~~~~~~~~~
+
+* Updated requirements to work with DatabasePipe 2.2.0
+
+0.1.0
+-----
+
+2009-12-24
+~~~~~~~~~~
+
+* First version

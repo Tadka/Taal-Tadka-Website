@@ -1,0 +1,107 @@
+html,body {
+	height:100%;
+	margin-left:8%;
+	margin-right:8%;
+	margin-top:0%;
+	margin-bottom:0%;
+	background:url('background.png') fixed;
+}
+
+ol#navigation {
+	height: 2em; 
+	list-style: none;
+}
+
+ol#navigation li {
+	float: right;
+}
+
+ol#navigation a {
+	color: white;
+	display: block;
+	float: left;
+	height: 2em;
+	padding: 10 10 10 10;
+	text-decoration: none;
+}
+
+ol#navigation a:hover {
+	border-bottom:2px solid green;
+	background-position: 0 -120px;
+}
+
+ol#navigation a:hover span {
+	background-position: 100% -120px;
+}
+
+ol#navigation li.current a {
+	border-bottom:2px solid red;
+	background-position: 0 -60px;
+	color: #fff;
+	/*font-weight: bold;*/
+}
+
+ol#navigation li.current span {
+	background-position: 100% -60px;
+}
+
+ol#navigation span {
+	display: block;
+	line-height: 2em;
+	padding-right: 10px;
+}
+
+#logo {
+	float:left;
+	background-color:black;
+	margin-top:20px;
+	margin-left:20px;
+}
+#nav {
+	background-color:black;
+	float:right;
+	padding:1em;
+}
+
+#content {
+	padding:1em 1em 5em;
+	background-color:white;
+}
+
+#header {
+	padding:1em;
+	background-color: black;
+	border-bottom:6px double white;
+}
+#footer {
+	position:absolute;
+	width:100%;
+	text-align:center;
+	bottom:0; /* stick to bottom */
+	background-color:black;
+	border-top:6px double white;
+}
+.footerText {
+	color:white;
+}
+
+#container {
+	position:relative; /* needed for footer positioning*/
+	margin:0 auto; /* center, not in IE5 */
+	
+	height:auto !important; /* real browsers */
+	height:100%; /* IE6: treated as min-height*/
+	background-color:white;
+
+	-moz-box-shadow: 5px -5px 5px #ccc,-5px -5px 5px #ccc;
+  	-webkit-box-shadow: 5px -5px 5px #ccc,-5px -5px 5px #ccc;
+  	box-shadow: 5px -5px 5px #ccc,-5px -5px 5px #ccc;
+
+	min-height:100%; /* real browsers */
+}
+
+#news-container {
+	margin-left:10px;
+	padding-left:10px;
+	border-left:1px solid gray;
+}

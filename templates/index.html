@@ -1,0 +1,58 @@
+<html>
+
+<head>
+	<title> Taal Tadka </title>
+	<link rel=StyleSheet href="/site_media/TTStyleSheet.css" type = "text/css">
+</head>
+
+
+<body>
+<div id="container">
+	<div id="header">
+
+		<a href="index.html"> <IMG src="/site_media/logo.jpg" alt="Taal Tadka"> </a>
+
+		<div id="nav">
+		<ol id = "navigation">
+			<li> <span> <a href="http://localhost:8000/admin/"> Login </a></span> </li>
+			<li> <span> <a href="contact.html"> Contact </a></span> </li>
+			<li> <span> <a href="members.html"> Members </a></span> </li>
+			<li> <span> <a href="about.html"> About </a></span> </li>
+			<li class="current"> <span> <a href="index.html"> Home </a></span> </li>
+		</ol>
+		</div>
+	</div>
+	
+	<div id="content">
+		<div id = "news-container">
+		{% if latest_blog_list %}
+    			{% for blog in latest_blog_list %}
+        			<h2>{{ blog.title }}</h2>
+				<p>{{ blog.pub_date }}</p>
+				<p>{{ blog.post }}</p>
+    			{% endfor %}
+		{% else %}
+    			<p>No Blog posts are available.</p>
+		{% endif %}
+		</div>
+<!--
+		<div id="news-container">
+			<h2> Red Shirts </h2>
+			<p> Forgive me for the random title.  I really don't know what to write here, yet.  Maybe we can find some ideas, <a href="http://moinakb.wordpress.com/"> here </a> </p>
+		</div>
+		<div id="news-container">
+			<h2> Random Post </h2>
+			<p> Blog post.  Blog posts go on and on.  Accessing the Login page using the tab above lets you log in as an administrator and add 				    posts to this blog.  Cool, huh?  We can even put stuff like videos in posts, like this: </p>
+			<p> <center><<iframe title="YouTube video player" width="480" height="390" src="http://www.youtube.com/embed/-vAr0cyEGJg" frameborder="0" 					allowfullscreen></iframe></center></p>
+		</div>
+-->
+	</div>
+
+	<div id="footer">
+		<p class="footerText"> Follow Us On: <a href="https://www.facebook.com/pages/Taal-Tadka/104934009542531?v=wall"><IMG src="/site_media/f_logo.jpg"></a> &nbsp; <a href="http://www.youtube.com/user/TechTaalTadka"><IMG src="/site_media/y_logo.png"></a></p><!-- Image sizes are 14x14-->
+	</div>
+</div>
+</body>
+
+
+</html>
