@@ -18,7 +18,7 @@ ol#navigation li {
 
 ol#navigation a {
 	color: white;
-	display: block;
+	display: inline;
 	float: left;
 	height: 2em;
 	padding: 10 10 10 10;
