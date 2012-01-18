@@ -1,0 +1,68 @@
+div.bio {
+    border: #48f solid 3px;
+    clear: left;
+    padding: 1em;
+}
+
+div.bio.inactive {
+	display: none;
+}
+
+ol#names {
+    height: 2em;
+    margin: 0;
+    padding: 0;
+}
+/*
+ol#names a {
+    background: #bdf;
+    color: #008;
+    display: block;
+    float: left;
+    height: 2em;
+    padding-left: 10px;
+    text-decoration: none;
+}
+*/
+ol#names a:hover {
+    background-color: #3af;
+    background-position: 0 -120px;
+}
+
+ol#names a:hover span {
+    background-position: 100% -120px;
+}
+/*
+ol#names li {
+    float: left;
+    margin: 0 1px 0 0;
+}*/
+
+ol#names li a.active {
+    background-color: #48f;
+    background-position: 0 -60px;
+    color: blue;
+    font-weight: bold;
+}
+
+ol#names li a.active span {
+    background-position: 100% -60px;
+}
+
+ol#names span {
+    background: url(tabs.gif) 100% 0;
+    display: block;
+    line-height: 2em;
+    padding-right: 10px;
+}
+
+#left {
+	float:left;
+	width:50%;
+}
+
+#right {
+	float:right;
+	width:50%;
+}
+
