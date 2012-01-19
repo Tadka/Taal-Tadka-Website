@@ -25,7 +25,7 @@ ol#navigation li {
 ol#navigation a {
 	color: white;
 	display: inline;
-	float: left;
+	float:left; 
 	height: 2em;
 	padding: 10 10 10 10;
 	text-decoration: none;
@@ -52,19 +52,19 @@ ol#navigation li.current span {
 }
 
 ol#navigation span {
-	display: block;
+	/* display: block; */
+	display: inline;
 	line-height: 2em;
 	padding-right: 10px;
 }
 
 #logo {
-	float:left;
+	float:right; /* used to be left */
 	background-color:black;
 	margin-top:20px;
 	margin-left:20px;
 }
 #nav {
-	height:inherit;
 	background-color:black;
 	float:right;
 	padding:1em;
