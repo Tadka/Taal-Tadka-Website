@@ -7,6 +7,12 @@ html,body {
 	background:url('background.png') fixed;
 }
 
+hr {
+	width:40%;
+	background-color:red;
+	color:red;
+}
+
 ol#navigation {
 	height: 2em; 
 	list-style: none;
@@ -85,6 +91,19 @@ ol#navigation span {
 	color:white;
 }
 
+.title {
+        color:green;
+        text-decoration:underline;
+}
+
+#Name {
+        font-size:medium;
+}
+
+#Email {
+        font-size:small;
+}
+
 #container {
 	position:relative; /* needed for footer positioning*/
 	margin:0 auto; /* center, not in IE5 */
@@ -104,4 +123,9 @@ ol#navigation span {
 	margin-left:10px;
 	padding-left:10px;
 	border-left:1px solid gray;
+}
+
+#contact {
+	text-align:center;
+	/* padding: 0 100 0 100; */
 }
