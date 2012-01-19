@@ -33,11 +33,11 @@ ol#navigation a {
 
 ol#navigation a:hover {
 	border-bottom:2px solid green;
-	background-position: 0 -120px;
+	/*background-position: 0 -120px;*/
 }
 
 ol#navigation a:hover span {
-	background-position: 100% -120px;
+	/*background-position: 100% -120px;*/
 }
 
 ol#navigation li.current a {
