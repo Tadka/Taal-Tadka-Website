@@ -39,7 +39,8 @@
 		<div id="right">
 				{% for member in member_list %}
 					<div class="content" id="{{ member.user.first_name }}">
-						<IMG src="/site_media/memberphotos/{{member.user.first_name.png}}"/>
+						<!-- <IMG src="/site_media/memberpictures/{{member.user.first_name}}.png"/> -->
+						<IMG src="http://www.eng.auburn.edu/images/centers/microfibrous-materials/placeholder.jpg"/>
 						<h2> {{ member.user.first_name }} {{ member.user.last_name }} </h2>
 						<p> Year: {{ member.year }}</p>
 						<p> Major: {{ member.major }} </p>
