@@ -9,8 +9,6 @@ html,body {
 
 hr {
 	width:40%;
-	background-color:red;
-	color:red;
 }
 
 ol#navigation {
@@ -33,22 +31,22 @@ ol#navigation a {
 
 ol#navigation a:hover {
 	border-bottom:2px solid green;
-	/*background-position: 0 -120px;*/
+	background-position: 0 -120px;
 }
 
 ol#navigation a:hover span {
-	/*background-position: 100% -120px;*/
+	background-position: 100% -120px;
 }
 
 ol#navigation li.current a {
 	border-bottom:2px solid red;
-	/* background-position: 0 -60px; */
+	background-position: 0 -60px;
 	color: #fff;
 	/*font-weight: bold;*/
 }
 
 ol#navigation li.current span {
-/*	background-position: 100% -60px; */
+	background-position: 100% -60px; 
 }
 
 ol#navigation span {
