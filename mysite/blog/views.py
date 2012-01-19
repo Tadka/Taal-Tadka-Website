@@ -18,7 +18,8 @@ def contact(request):
 def about(request):
     t = loader.get_template('about.html')
     return HttpResponse(t.render(Context()))
-
+"""
 def members(request):
     t = loader.get_template('members.html')
     return HttpResponse(t.render(Context()))
+"""
