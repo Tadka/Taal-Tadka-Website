@@ -2,6 +2,7 @@
 
 <head>
 
+<title> Tadkis </title>
 <link href="/site_media/tabbed.css" rel="stylesheet" type="text/css"/> 
 <link href="/site_media/TTStyleSheet.css" rel="stylesheet" type="text/css"/> 
 
@@ -27,6 +28,7 @@
 	<div id="content">
 		{% if member_list %}
 		<div id="left">
+			<h2> Active Tadkis </h2>
 			<ol id = "names">
 				{% for member in member_list %}
 				<li><a href="#{{ member.user.first_name }}"><span>{{ member.user.first_name}} {{ member.user.last_name}}</span></a></li>
@@ -37,8 +39,12 @@
 		<div id="right">
 				{% for member in member_list %}
 					<div class="content" id="{{ member.user.first_name }}">
+						<IMG src="/site_media/memberphotos/{{member.user.first_name.png}}"/>
 						<h2> {{ member.user.first_name }} {{ member.user.last_name }} </h2>
-						<p> {{ member.bio }} </p>
+						<p> Year: {{ member.year }}</p>
+						<p> Major: {{ member.major }} </p>
+						<p> Vocal Parts: {{ member.vocalparts }} </p>
+						<p> Bio: {{ member.bio }} </p>
 					</div>
 				{% endfor %}
 		</div>
