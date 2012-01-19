@@ -66,6 +66,7 @@ ol#navigation span {
 }
 #nav {
 	background-color:black;
+	top: 0;
 	float:right;
 	padding:1em;
 }
