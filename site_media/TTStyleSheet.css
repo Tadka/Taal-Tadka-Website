@@ -19,6 +19,7 @@ ol#navigation {
 }
 
 ol#navigation li {
+	height:inherit;
 	float: right;
 }
 
