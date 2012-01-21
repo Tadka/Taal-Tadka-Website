@@ -1,12 +1,11 @@
 <html>
-
 <head>
-	<title> Taal Tadka </title>
+	<title> About Taal Tadka </title>
 	<link rel=StyleSheet href="/site_media/TTStyleSheet.css" type = "text/css">
 </head>
 
-
 <body>
+
 <div id="container">
 	<div id="header">
 
@@ -17,31 +16,40 @@
 			<li> <span> <a href="/admin/"> Login </a></span> </li>
 			<li> <span> <a href="/contact/"> Contact </a></span> </li>
 			<li> <span> <a href="/members/"> Members </a></span> </li>
-			<li> <span> <a href="/music/"> Media </a></span> </li>
+			<li class="current"> <span> <a href="/music/"> Media </a></span> </li>
 			<li> <span> <a href="/about/"> About </a></span> </li>
-			<li class="current"> <span> <a href="/blog/"> Home </a></span> </li>
+			<li> <span> <a href="/blog/"> Home </a></span> </li>
 		</ol>
 		</span>
 	</div>
 	
 	<div id="content">
-		{% if latest_blog_list %}
-    			{% for blog in latest_blog_list %}
-				<div id = "news-container">
-        			<h2>{{ blog.title }}</h2>
-				<p>{{ blog.pub_date }}</p>
-				<p>{{ blog.post }}</p>
-				</div>
-    			{% endfor %}
-		{% else %}
-    			<p>No Blog posts are available.</p>
-		{% endif %}
+		<center>
+		<h1> Setlist </h1>
+			{% if set_list %}
+
+				{% for song in set_list %}
+					<div id="setlistitem">
+						<p class="bold"> {{ song.song }} </p>
+						<p> Arranged By: {{ song.arrangedby }} </p>
+						{% ifnotequal song.ituneslink "NULL" %}
+							<p> <a href="{{ song.ituneslink }}"> <IMG src="/site_media/viewinitunes.png"/> </a> </p>
+						{% endifnotequal %}
+					</div>
+				{% endfor %}
+			{% else %}
+				<p> No music in database... </p>
+			{% endif %}
+
+		</center>
 	</div>
 
 	<div id="footer">
 		<p class="footerText"> Follow Us On: <a href="https://www.facebook.com/pages/Taal-Tadka/104934009542531?v=wall"><IMG src="/site_media/f_logo.jpg"></a> &nbsp; <a href="http://www.youtube.com/user/TechTaalTadka"><IMG src="/site_media/y_logo.png"></a></p><!-- Image sizes are 14x14-->
 	</div>
 </div>
+
+
 </body>
 
 

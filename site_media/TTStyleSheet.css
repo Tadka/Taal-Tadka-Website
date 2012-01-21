@@ -5,6 +5,20 @@ html,body {
 	margin-top:0%;
 	margin-bottom:0%;
 	background:url('background.png') fixed;
+	font-family:Helvetica;
+}
+
+#setlistitem {
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	line-height:0.5em;
+	margin-left:5em;
+	margin-right:5em;
+	margin-bottom:4em;
+}
+
+.bold {
+	font-weight: bold;
 }
 
 hr {
