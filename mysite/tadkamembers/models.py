@@ -10,6 +10,8 @@ class UserProfile(models.Model):
 	year = models.CharField(max_length=20, default=" ")
 	major = models.CharField(max_length=50, default=" ")
 	vocalparts = models.CharField(max_length=100, default="")
+	def __unicode__(self):
+		return self.user.username
 
 def create_user_profile(sender, instance, created, **kwargs):
 	if created:
