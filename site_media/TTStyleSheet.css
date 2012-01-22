@@ -17,6 +17,19 @@ html,body {
 	margin-bottom:4em;
 }
 
+#dateposted {
+	font-size: small;
+	color:gray;
+}
+
+#news-header {
+	line-height:0.5em;
+}
+
+#news-content {
+	line-height:2em;
+}
+
 .bold {
 	font-weight: bold;
 }
@@ -71,7 +84,7 @@ ol#navigation span {
 }
 
 #logo {
-	float:right; /* used to be left */
+	float:left; /* used to be left */
 	background-color:black;
 	margin-top:20px;
 	margin-left:20px;
@@ -85,7 +98,7 @@ ol#navigation span {
 
 #content {
 	padding:1em 1em 5em;
-	height:100%;
+	height:auto;
 	background-color:white;
 }
 
@@ -144,4 +157,8 @@ ol#navigation span {
 	position:relative;
 	text-align:center;
 	/*padding: 0 100 0 100; */
+}
+
+#masthead {
+	line-height:1em;
 }

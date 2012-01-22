@@ -28,9 +28,9 @@
 		{% if latest_blog_list %}
     			{% for blog in latest_blog_list %}
 				<div id = "news-container">
-        			<h2>{{ blog.title }}</h2>
-				<p>{{ blog.pub_date }}</p>
-				<p>{{ blog.post }}</p>
+        			<h2 id="news-header">{{ blog.title }}</h2>
+				<p id="dateposted">{{ blog.pub_date }}</p>
+				<p id="news-content">{{ blog.post }}</p>
 				</div>
     			{% endfor %}
 		{% else %}
