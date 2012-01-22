@@ -102,12 +102,12 @@ ol#navigation span {
 	background-color:white;
 }
 
-#header {
+#tadkaheader {
 	padding:1em;
 	background-color: black;
 	border-bottom:6px double white;
 }
-#footer {
+#tadkafooter {
 	position:absolute;
 	width:100%;
 	text-align:center;
@@ -132,7 +132,7 @@ ol#navigation span {
         font-size:small;
 }
 
-#container {
+#tadkacontainer {
 	position:relative; /* needed for footer positioning*/
 	margin:0 auto; /* center, not in IE5 */
 	

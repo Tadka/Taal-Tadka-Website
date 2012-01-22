@@ -1,0 +1,42 @@
+<html>
+<body>
+<head>
+	<title> About Taal Tadka </title>
+	<link rel=StyleSheet href="/site_media/TTStyleSheet.css" type = "text/css">
+</head>
+
+<div id="tadkacontainer">
+	<div id="tadkaheader">
+
+		<a href="/blog/"> <IMG src="/site_media/logo.jpg" alt="Taal Tadka"> </a>
+
+		<span id="nav">
+		<ol id = "navigation">
+			<li class="current"> <span> <a href="/admin/"> Login </a></span> </li>
+			<li> <span> <a href="/contact/"> Contact </a></span> </li>
+			<li> <span> <a href="/members/"> Members </a></span> </li>
+			<li> <span> <a href="/music/"> Media </a></span> </li>
+			<li> <span> <a href="/about/"> About </a></span> </li>
+			<li> <span> <a href="/blog/"> Home </a></span> </li>
+		</ol>
+		</span>
+	</div>
+
+	<div id="content">
+		{% extends "admin/base.html" %}
+		{% load i18n %}
+		<center>
+		{% block title %}{{ title }} | {% trans 'Taal Tadka site admin' %}{% endblock %}
+
+		{% block branding %}
+		<h1 id="site-name">{% trans 'Tadka-Square' %}</h1>
+		{% endblock %}
+
+		{% block nav-global %}{% endblock %}
+		</center>
+	</div>
+</div>
+
+</body>
+
+</html>
