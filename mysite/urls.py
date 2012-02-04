@@ -1,5 +1,6 @@
 from django.conf.urls.defaults import *
 from django.conf import settings
+from django.shortcuts import redirect
 import os.path
 
 PWD = os.path.dirname(os.path.realpath(__file__ )) 
@@ -16,6 +17,7 @@ urlpatterns = patterns('',
     # (r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
     # Uncomment the next line to enable the admin:
+    (r'^$', lambda x: redirect('/blog')),
     (r'^blog/$', 'blog.views.index'),
     (r'^contact/', 'blog.views.contact'),
     (r'^about/', 'blog.views.about'),
